@@ -2,9 +2,10 @@
 
 def get_target_heart_rate(intensity)
   target_heart_rate = (((220 - @age) - @resting_heart_rate) * intensity) + @resting_heart_rate
-  print intensity.round(2)
+  print ((intensity*100).to_i)
+  print '%'
 
-  puts '      | ' + target_heart_rate.round.to_s
+  puts '       | ' + target_heart_rate.round.to_s
   intensity + 0.05
 
   if intensity < 0.95
