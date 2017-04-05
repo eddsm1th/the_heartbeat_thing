@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="385a19b9-0a24-40b5-8d3c-db3e8acb4ba1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Heartrate_intensity.rb" afterPath="$PROJECT_DIR$/Heartrate_intensity.rb" />
-    </list>
+    <list default="true" id="385a19b9-0a24-40b5-8d3c-db3e8acb4ba1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -268,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1490778422990</updated>
       <workItem from="1490778424298" duration="4193000" />
-      <workItem from="1490865036766" duration="4908000" />
+      <workItem from="1490865036766" duration="4974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9101000" />
+    <option name="totallyTimeSpent" value="9167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
