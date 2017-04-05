@@ -8,5 +8,5 @@ puts 'Please enter you age:'
 @age = gets.to_i
 puts 'Please enter your resting heart rate:'
 @resting_heart_rate = gets.to_i
-puts "\nIntensity | Target Heart Rate\n----------|--------------"
+puts "\nIntensity | Target Heart Rate\n----------|-------------- "
 get_target_heart_rate(0.55)
