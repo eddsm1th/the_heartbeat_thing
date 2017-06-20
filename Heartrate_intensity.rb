@@ -1,5 +1,5 @@
 def a(b)
-p"#{b}%       #{((((220-@x)-@c)*b)+@c)/100}"  
+p"#{b}% - #{((((220-@x)-@c)*b)+@c)/100}"  
 a(b+5)if b<95
 end
 p'Enter age and Resting heart rate'
