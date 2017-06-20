@@ -1,12 +1,11 @@
-def get_target_heart_rate(intensity)
-  target_heart_rate = (((220 - @age) - @resting_heart_rate) * intensity) + @resting_heart_rate
-  puts ((intensity*100).to_i).to_s + '%       | ' + target_heart_rate.round.to_s
-  get_target_heart_rate(intensity + 0.05) if intensity < 0.95
+def a(b)
+  c=(((220-@e)-@d)*b)+@d
+  puts((b*100).to_i).to_s+'%       | '+c.round.to_s
+  a(b+0.05)if b<0.95
 end
-
-puts 'Please enter you age:'
-@age = gets.to_i
-puts 'Please enter your resting heart rate:'
-@resting_heart_rate = gets.to_i
-puts "\nIntensity | Target Heart Rate\n----------|--------------"
-get_target_heart_rate(0.55)
+puts'Please enter you age:'
+@e=gets.to_i
+puts'Please enter your resting heart rate:'
+@d = gets.to_i
+puts"\nIntensity | Target Heart Rate\n----------|--------------"
+a(0.55)
