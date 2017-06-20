@@ -4,6 +4,5 @@ def a(b)
 end
 puts'Enter age and Resting heart rate'
 @x,@c=gets.to_i,gets.to_i
-
 puts'Intensity Target Heart Rate'
 a(55)
