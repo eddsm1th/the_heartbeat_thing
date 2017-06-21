@@ -1,5 +1,5 @@
 def a b,x,c
-p"#{b}%-#{((220-x-c)*b+c)/100}" 
+p"#{b}%-#{((220-x-c)*b+c)/100}"
 a b+5,x,c if b<95
 end
 p'Enter age & Resting heart rate'
